@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parsing</title>
+</head>
+<body>
+    <h2>Creating an Object from a JSON string</h2>
+    <p id="demo"></p>
+    <script>
+        const txt ='{"name":"KIET MCA","age":30,"city":"Ghaziabad"}'
+        const obj = JSON.parse(txt);//converting JSON stirngs into javascript
+        document.getElementById("demo").innerHTML = obj.name +","+obj.age;
+    </script>
+</body>
+</html>

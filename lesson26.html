@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acess a javascript</title>
+</head>
+<body>
+    <h2>Acess a javascript</h2>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        const myObj={name:"Ram",age:"30",city:"Ghaziabad"};
+        document.getElementById("demo").innerHTML=myObj.name;
+        document.getElementById("demo1").innerHTML=myObj["name"];
+        document.getElementById("demo1").innerHTML=myObj["age"];
+        document.getElementById("demo1").innerHTML=myObj["city"];
+    </script>
+</body>
+</html>

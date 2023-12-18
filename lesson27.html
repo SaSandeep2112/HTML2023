@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+<body>
+    <h2>Modify a javascript object</h2>
+    <p id="demo"></p>
+    <script>
+        var employeedat={
+            "employee_id":1234,
+            "name":"Sandeep Sahu",
+            "Doj":"04/08/2023",
+            "office":"KIET GZB"
+            "RANDOM_NUM":[23,24,25,26]
+        
+        };
+        document.getElementById("demo").innerHTML=employeedat.name+"_"+employeedat.RANDOM_NUM[3];
+    </script>
+</body>
+</html>
